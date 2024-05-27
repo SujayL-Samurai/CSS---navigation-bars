@@ -1,0 +1,63 @@
+navigation bar;
+
+
+<!DOCTYPE html>
+<html>
+<body>
+<link rel="stylesheet" href="style.css">
+
+<h1>The Swords</h1>
+
+<nav class="navbar">
+	<ul>
+		<li><a href="https://en.wikipedia.org/wiki/Katana" target="_blank">Katana</a></li>
+		<li><a href="https://en.wikipedia.org/wiki/Talwar" target="_blank">Talwar</a></li>
+		<li><a href="https://en.wikipedia.org/wiki/Sabre" target="_blank">Sabre</a></li>
+		<li><a href="https://en.wikipedia.org/wiki/Rapier" target="_blank">Rapier</a></li>
+	</ul>
+</nav>
+
+<main>
+	<h3>This is the Sword details</h3>
+	<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet totam maiores modi delectus corporis eos quisquam commodi explicabo ea placeat impedit ipsa, a magni quod animi perspiciatis iusto nostrum itaque.</p>
+</main>
+
+</body>
+</html>
+
+
+style.css
+
+body{
+    margin: 0px;
+}
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+h1{
+    text-align: center;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: aqua;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: hsl(0, 0%, 0%);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: antiquewhite;
+}
+.navbar li{
+    float: left;
+}
+.navbar{
+    display: inline-block;
+}
